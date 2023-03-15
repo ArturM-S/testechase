@@ -11,7 +11,7 @@ export default function Home() {
 
   const handleSearch = async (data: FormData) => {
     try {
-      const response = await api.post('/chase');
+      const response = await api.post('/teste');
       console.log(
         '🚀 ~ file: index.tsx:17 ~ handleSearch ~ response:',
         response,
